@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ae242b">
-  <meta name="description" content="El portfolio personal de Minzake. Proyectos, experiencias y un poco de mi mundo.">
-  <title>Minzake · Portfolio</title>
+  <meta name="description" content="Portfolio de Axel Martin Fiol. Desarrollo con Node.js, Astro y Next.js, experiencia en la DTI del SPB y soporte técnico de PC.">
+  <title>Axel Martin Fiol · Portfolio</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,7 +14,7 @@
 
   <header class="site-header">
     <div class="container header-content">
-      <a class="brand" href="#inicio" aria-label="Minzake, inicio">m<span>.</span></a>
+      <a class="brand" href="#inicio" aria-label="Axel Martin Fiol, inicio">af<span>.</span></a>
       <nav aria-label="Navegación principal">
         <a href="#inicio">Inicio</a>
         <a href="#acerca-de-mi">Acerca de mí</a>
@@ -27,18 +27,16 @@
   <main id="contenido">
     <section class="hero container" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="red-dot" aria-hidden="true"></span> MI PORTFOLIO PERSONAL</p>
-        <!-- Reemplazar Minzake por el nombre que quieras mostrar. -->
-        <h1 id="hero-title">Hola,<br>soy <span>Minzake.</span></h1>
-        <p class="hero-description">Un espacio para compartir mis proyectos, mi experiencia y un poco de mi mundo.</p>
+        <p class="eyebrow"><span class="red-dot" aria-hidden="true"></span> FIOL, AXEL MARTIN / PORTFOLIO</p>
+        <h1 id="hero-title">Hola,<br>soy <span>Axel Fiol.</span></h1>
+        <p class="hero-description">Desarrollo proyectos con Node.js, Astro y Next.js. Desde 2022 trabajo en el departamento de desarrollo de la DTI del SPB.</p>
         <a class="button" href="#proyectos">Ver mis proyectos <span aria-hidden="true">↗</span></a>
         <a class="text-link hero-secondary" href="#acerca-de-mi">Conoceme un poco más <span aria-hidden="true">↓</span></a>
       </div>
 
       <figure class="hero-art">
-        <!-- Esta ilustración se puede reemplazar por una foto personal. -->
-        <img src="assets/ilustracion.svg" width="520" height="580" alt="Ilustración de una espada negra frente a una luna roja, inspirada en la estética del anime.">
-        <figcaption><span>UN POCO DE MI MUNDO</span><span>01 — BLEACH</span></figcaption>
+        <img src="assets/axel-fiol.jpg" width="768" height="1365" alt="Retrato de presentación de Axel Martin Fiol.">
+        <figcaption><span>UN POCO DE MI MUNDO</span><span>AXEL MARTIN FIOL</span></figcaption>
       </figure>
     </section>
 
@@ -50,12 +48,12 @@
         <h2 id="about-title">Detrás del <span>portfolio.</span></h2>
       </div>
       <div class="about-content">
-        <p class="about-intro">Soy fan de Bleach y quería que este espacio tuviera un poco de esa energía.</p>
-        <p>Acá voy a reunir lo que hago, las cosas que aprendo y los proyectos en los que participo.</p>
-        <!-- Completar con la descripción personal, el trabajo y la experiencia. -->
+        <p class="about-intro">Soy Axel Martin Fiol. Mi recorrido en tecnología empezó con las computadoras y hoy continúa en el desarrollo.</p>
+        <p>Trabajo en la DTI, en el departamento de desarrollo del SPB, desde 2022. Hice proyectos con Node.js, Astro y Next.js, y también tengo proyectos propios con estas tecnologías.</p>
+        <p class="about-personal">Además, soy muy fan de Bleach: los tonos rojizos y los detalles de este portfolio tienen un poco de ese mundo.</p>
         <div class="experience-note">
-          <span class="small-label">MI RECORRIDO</span>
-          <p>Pronto voy a sumar mi experiencia y los lugares donde trabajé.</p>
+          <span class="small-label">SOPORTE TÉCNICO DE PC</span>
+          <p>Antes de ingresar a la DTI trabajé en soporte técnico, reparación y armado de PC. Hoy sigo haciéndolo en mi tiempo libre.</p>
         </div>
       </div>
     </section>
@@ -69,16 +67,26 @@
           </div>
           <span class="small-label projects-caption">HECHO CON DEDICACIÓN</span>
         </div>
-        <!-- Reemplazar este bloque por los proyectos reales, con imagen y enlace. -->
-        <article class="project-placeholder">
+        <div class="project-list">
+        <article class="project-card">
           <div class="project-visual" aria-hidden="true"><span>&lt; / &gt;</span></div>
           <div class="project-copy">
-            <p class="small-label">EN PREPARACIÓN</p>
-            <h3>Lo que estuve creando.</h3>
-            <p>Este es el lugar para mis proyectos: qué hice, cómo lo hice y qué aprendí en el camino. Pronto vas a poder conocerlos.</p>
-            <span class="project-status"><span class="red-dot" aria-hidden="true"></span> Próximamente</span>
+            <p class="small-label">EXPERIENCIA EN DESARROLLO</p>
+            <h3>Proyectos con JavaScript.</h3>
+            <p>A lo largo de mi recorrido participé en proyectos con Node.js, Astro y Next.js.</p>
+            <ul class="tech-tags" aria-label="Tecnologías utilizadas"><li>Node.js</li><li>Astro</li><li>Next.js</li></ul>
           </div>
         </article>
+        <article class="project-card">
+          <div class="project-visual project-visual-personal" aria-hidden="true"><span>{ af }</span></div>
+          <div class="project-copy">
+            <p class="small-label">POR MI CUENTA</p>
+            <h3>Mis proyectos personales.</h3>
+            <p>También desarrollo proyectos propios con Node.js, Astro y Next.js. Podés encontrar mis repositorios públicos en GitHub.</p>
+            <a class="text-link project-link" href="https://github.com/Minzake?tab=repositories" target="_blank" rel="noopener noreferrer">Ver mis repositorios <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        </div>
       </div>
     </section>
 
@@ -86,16 +94,19 @@
       <div>
         <p class="eyebrow">03 / CONTACTO</p>
         <h2 id="contact-title">¿Hablamos<span>?</span></h2>
-        <p>Siempre hay una buena idea por compartir.<br>Podés encontrarme en GitHub.</p>
+        <p>Podés escribirme por mail o conocer mis proyectos en GitHub.</p>
+        <a class="email-link" href="mailto:axelfiol12@gmail.com">axelfiol12@gmail.com</a>
       </div>
-      <!-- Agregar el correo y otras redes cuando estén disponibles. -->
-      <a class="button" href="https://github.com/Minzake" target="_blank" rel="noopener noreferrer">Contactame en GitHub <span aria-hidden="true">↗</span></a>
+      <div class="contact-actions">
+        <a class="button" href="mailto:axelfiol12@gmail.com">Escribime por mail <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="https://github.com/Minzake" target="_blank" rel="noopener noreferrer">GitHub / Minzake <span aria-hidden="true">↗</span></a>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <a class="brand" href="#inicio" aria-label="Volver al inicio">m<span>.</span></a>
+      <a class="brand" href="#inicio" aria-label="Volver al inicio">af<span>.</span></a>
       <p>tp Portfolio</p>
       <a class="back-top" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
     </div>

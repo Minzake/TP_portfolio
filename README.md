@@ -1,6 +1,6 @@
 # tp Portfolio
 
-Portfolio personal simple, hecho con HTML y CSS. Paleta rojiza e ilustración SVG original inspirada en la estética de Bleach. No usa frameworks, JavaScript ni servicios externos para cargar la página.
+Portfolio personal de **Axel Martin Fiol**, hecho con HTML y CSS. Paleta rojiza inspirada en la estética de Bleach. No usa frameworks, JavaScript ni servicios externos para cargar la página.
 
 Sitio: https://minzake-tp-portfolio.surge.sh
 
@@ -12,10 +12,13 @@ Abrir `index.html` en un navegador. No necesita instalación ni compilación.
 
 - `index.html`: nombre, descripción, experiencia, proyectos y enlaces de contacto.
 - `styles.css`: colores, tipografía y adaptación a celulares.
-- `assets/ilustracion.svg`: ilustración de portada. Para usar una foto, guardarla en `assets/` y actualizar la ruta y el texto alternativo del `<img>`.
+- `assets/axel-fiol.jpg`: retrato de portada proporcionado por el autor.
+- `assets/ilustracion.svg`: ilustración de la primera versión, disponible como recurso alternativo.
 - `assets/favicon.svg`: ícono de la pestaña.
 
-El nombre **Minzake** y el enlace de GitHub se toman del usuario del repositorio. La descripción profesional, la experiencia laboral, los proyectos, el correo y la foto personal quedan pendientes de los datos del autor. La página los presenta como contenido próximo, sin inventar información.
+Incluye su trabajo en el departamento de desarrollo de la DTI del SPB desde 2022, experiencia previa y actual en soporte técnico de PC, proyectos con Node.js, Astro y Next.js, correo y GitHub. Los proyectos se describen de forma general hasta contar con sus nombres y enlaces individuales.
+
+Los enlaces de correo abren la aplicación de mail del visitante. No hay un servidor ni un formulario que almacene o envíe mensajes.
 
 ## Publicar en Surge
 

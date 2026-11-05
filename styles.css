@@ -55,7 +55,6 @@ h2 span { color: var(--red); }
 .about-section { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; }
 .about-content > p { font-size: 14px; color: var(--muted); }
 .about-content .about-intro { font-size: 19px; line-height: 1.5; color: var(--ink); margin-bottom: 15px; }
-.about-content .about-personal { margin-top: 15px; }
 .experience-note { border-left: 2px solid var(--red); padding-left: 18px; margin-top: 26px; }
 .experience-note .small-label { color: var(--red); }
 .experience-note p { margin-top: 6px; font-size: 13px; color: var(--muted); }

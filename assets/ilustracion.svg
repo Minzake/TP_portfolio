@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="580" viewBox="0 0 520 580">
+  <defs>
+    <pattern id="paper" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.55" fill="#242323" opacity="0.09"/></pattern>
+    <pattern id="lines" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-25)"><path d="M0 0V8" stroke="#242323" stroke-width="1" opacity="0.14"/></pattern>
+    <clipPath id="frame"><path d="M0 0H520V580H0Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="#e9e4db" d="M0 0H520V580H0Z"/>
+    <path fill="url(#paper)" d="M0 0H520V580H0Z"/>
+    <circle cx="270" cy="244" r="174" fill="#ae242b"/>
+    <circle cx="270" cy="244" r="174" fill="url(#lines)"/>
+    <path d="M36 122H105M36 130H78M409 425H477M437 433H477" stroke="#242323" stroke-width="1" opacity="0.4"/>
+    <path d="M-36 527L348 74L272 349L69 580H-36Z" fill="#242323"/>
+    <path d="M348 74L272 349L69 580H44L249 339Z" fill="#817b74"/>
+    <path d="M348 74L249 339L-2 580H-22Z" fill="#171717"/>
+    <path d="M262 353L277 361L403 188L388 178Z" fill="#242323"/>
+    <path d="M379 190L411 213L420 198L389 175Z" fill="#242323"/>
+    <path d="M399 181L432 135L448 147L414 194Z" fill="#242323"/>
+    <path d="M412 168L426 177M419 158L433 167M426 148L440 157" stroke="#e9e4db" stroke-width="3"/>
+    <path d="M432 134L447 129L459 140L450 150Z" fill="#242323"/>
+    <path d="M449 134C488 116 485 73 465 66C440 59 450 94 476 88C499 82 509 45 493 20" fill="none" stroke="#242323" stroke-width="5"/>
+    <path d="M270 349C321 365 320 400 360 412C412 428 438 461 422 506C410 543 447 555 495 554L552 569L541 600H327C340 561 353 536 333 514C311 489 309 455 316 433C325 404 285 381 253 370Z" fill="#242323"/>
+    <path d="M335 474C365 487 390 469 406 480M354 540C376 528 398 541 416 551" fill="none" stroke="#e9e4db" stroke-width="1" opacity="0.35"/>
+    <path d="M88 56H128M108 36V76M416 339H436M426 329V349" stroke="#242323" stroke-width="1" opacity="0.5"/>
+    <text x="37" y="550" font-family="monospace" font-size="10" letter-spacing="3" fill="#e9e4db">SOUL / SPIRIT</text>
+    <text x="477" y="60" transform="rotate(90 477 60)" font-family="monospace" font-size="9" letter-spacing="3" fill="#69635f">A WORLD OF MY OWN</text>
+  </g>
+</svg>

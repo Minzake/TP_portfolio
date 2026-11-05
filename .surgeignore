@@ -1,0 +1,8 @@
+.git
+.gitignore
+.surgeignore
+README.md
+node_modules
+.checks
+.env
+.env.*
